@@ -1,1 +1,1 @@
-# ⏭ next.js start
+# ⏭ next.js starter
