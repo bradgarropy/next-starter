@@ -1,15 +1,12 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Navigation from "./Navigation"
 
-const Header = props => {
+const Header = () => {
     return (
         <header>
             <Navigation/>
         </header>
     )
 }
-
-Header.propTypes = {}
 
 export default Header

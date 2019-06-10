@@ -1,8 +1,7 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Link from "next/link"
 
-const Navigation = props => {
+const Navigation = () => {
     return (
         <nav>
             <Link href="/">
@@ -15,7 +14,5 @@ const Navigation = props => {
         </nav>
     )
 }
-
-Navigation.propTypes = {}
 
 export default Navigation
