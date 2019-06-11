@@ -13,7 +13,7 @@
         "nextjs",
         "now"
     ],
-    "homepage": "https://github.com/bradgarropy/next-starter",
+    "homepage": "https://next-starter.bradgarropy.now.sh",
     "bugs": {
         "url": "https://github.com/bradgarropy/next-starter/issues"
     },
@@ -38,10 +38,12 @@
         "dotenv": "^8.0.0",
         "next": "^8.1.0",
         "react": "^16.8.6",
-        "react-dom": "^16.8.6"
+        "react-dom": "^16.8.6",
+        "styled-components": "^4.3.1"
     },
     "devDependencies": {
         "babel-eslint": "^10.0.1",
+        "babel-plugin-styled-components": "^1.10.0",
         "eslint": "^5.15.3",
         "eslint-config-bradgarropy": "^1.1.0",
         "eslint-plugin-jsx-a11y": "^6.2.1",

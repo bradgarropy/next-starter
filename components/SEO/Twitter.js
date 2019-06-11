@@ -7,7 +7,7 @@ const Twitter = ({
     site = "@bradgarropy",
     title = "next starter",
     description = "⏭ next.js starter",
-    image = "https://github.com/bradgarropy/next-starter/twitter.png",
+    image = "https://next-starter.bradgarropy.now.sh/twitter.png",
 }) => {
     return (
         <Head>
