@@ -2,7 +2,17 @@
     "name": "next-starter",
     "version": "0.0.1",
     "description": "⏭ next.js starter",
-    "keywords": [],
+    "keywords": [
+        "react",
+        "reactjs",
+        "eslint",
+        "prettier",
+        "styled-components",
+        "zeit",
+        "next",
+        "nextjs",
+        "now"
+    ],
     "homepage": "https://github.com/bradgarropy/next-starter",
     "bugs": {
         "url": "https://github.com/bradgarropy/next-starter/issues"
@@ -25,6 +35,7 @@
         "lint:fix": "eslint . --fix"
     },
     "dependencies": {
+        "dotenv": "^8.0.0",
         "next": "^8.1.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6"
