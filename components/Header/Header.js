@@ -3,7 +3,8 @@ import Navigation from "./Navigation"
 import styled from "styled-components"
 
 const HeaderWrapper = styled.header`
-    background: blue;
+    padding: 20px 30px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
 `
 
 const Header = () => {
