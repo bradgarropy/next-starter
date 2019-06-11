@@ -10,7 +10,7 @@ const indexPage = () => (
         <Facebook/>
         <Twitter/>
 
-        <p>Hello Next.js</p>
+        <p>home</p>
     </Layout>
 )
 

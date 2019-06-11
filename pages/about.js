@@ -11,7 +11,7 @@ const aboutPage = () => {
             <Facebook/>
             <Twitter/>
 
-            <p>This is the about page</p>
+            <p>about</p>
         </Layout>
     )
 }
