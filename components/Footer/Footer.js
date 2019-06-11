@@ -1,16 +1,20 @@
 import React from "react"
 import styled from "styled-components"
+import Container from "../../styles/Container"
 
 const FooterWrapper = styled.footer`
     background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);
-    text-align: center;
     color: ${({theme}) => theme.colors.offWhite};
+    text-align: center;
+    padding: 20px 30px;
 `
 
 const Footer = () => {
     return (
         <FooterWrapper>
-            <h1>Footer</h1>
+            <Container>
+                <p>Footer</p>
+            </Container>
         </FooterWrapper>
     )
 }

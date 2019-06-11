@@ -1,16 +1,19 @@
 import React from "react"
-import Navigation from "./Navigation"
 import styled from "styled-components"
+import Navigation from "./Navigation"
+import Container from "../../styles/Container"
 
 const HeaderWrapper = styled.header`
-    padding: 20px 30px;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+    padding: 20px 30px;
 `
 
 const Header = () => {
     return (
         <HeaderWrapper>
-            <Navigation/>
+            <Container>
+                <Navigation/>
+            </Container>
         </HeaderWrapper>
     )
 }
