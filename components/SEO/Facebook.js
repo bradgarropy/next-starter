@@ -7,7 +7,7 @@ const Facebook = ({
     type = "website",
     title = "next starter",
     description = "⏭ next.js starter",
-    image = "https://next-starter.bradgarropy.now.sh/facebook.png",
+    image = "https://next-starter.bradgarropy.now.sh/static/facebook.png",
 }) => {
     return (
         <Head>
