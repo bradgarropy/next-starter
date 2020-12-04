@@ -1,11 +1,10 @@
-import React from "react"
 import PropTypes from "prop-types"
 import styled, {ThemeProvider} from "styled-components"
-import Header from "../components/Header/Header"
-import Footer from "../components/Footer/Footer"
-import GlobalStyles from "../styles/GlobalStyles"
-import Container from "../styles/Container"
-import theme from "../styles/theme"
+import Header from "components/Header"
+import Footer from "components/Footer"
+import GlobalStyles from "styles/GlobalStyles"
+import Container from "styles/Container"
+import theme from "styles/theme"
 
 const LayoutWrapper = styled.div`
     height: 100vh;
@@ -17,12 +16,12 @@ const Layout = ({children}) => {
     return (
         <ThemeProvider theme={theme}>
             <>
-                <GlobalStyles/>
+                <GlobalStyles />
 
                 <LayoutWrapper>
-                    <Header/>
+                    <Header />
                     <Container>{children}</Container>
-                    <Footer/>
+                    <Footer />
                 </LayoutWrapper>
             </>
         </ThemeProvider>

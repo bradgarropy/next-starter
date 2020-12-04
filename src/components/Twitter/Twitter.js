@@ -1,4 +1,3 @@
-import React from "react"
 import PropTypes from "prop-types"
 import Head from "next/head"
 
@@ -7,15 +6,15 @@ const Twitter = ({
     site = "@bradgarropy",
     title = "next starter",
     description = "⏭ next.js starter",
-    image = "https://next-starter.bradgarropy.now.sh/static/twitter.png",
+    image = "https://next-starter.bradgarropy.now.sh/twitter.png",
 }) => {
     return (
         <Head>
-            <meta name="twitter:card" content={card}/>
-            <meta name="twitter:site" content={site}/>
-            <meta name="twitter:title" content={title}/>
-            <meta name="twitter:description" content={description}/>
-            <meta name="twitter:image" content={image}/>
+            <meta name="twitter:card" content={card} />
+            <meta name="twitter:site" content={site} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:image" content={image} />
         </Head>
     )
 }

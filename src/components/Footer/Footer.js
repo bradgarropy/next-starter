@@ -1,6 +1,5 @@
-import React from "react"
 import styled from "styled-components"
-import Container from "../../styles/Container"
+import Container from "styles/Container"
 
 const FooterWrapper = styled.footer`
     background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);

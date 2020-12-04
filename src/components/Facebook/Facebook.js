@@ -1,4 +1,3 @@
-import React from "react"
 import PropTypes from "prop-types"
 import Head from "next/head"
 
@@ -7,15 +6,15 @@ const Facebook = ({
     type = "website",
     title = "next starter",
     description = "⏭ next.js starter",
-    image = "https://next-starter.bradgarropy.now.sh/static/facebook.png",
+    image = "https://next-starter.bradgarropy.now.sh/facebook.png",
 }) => {
     return (
         <Head>
-            <meta property="og:url" content={url}/>
-            <meta property="og:type" content={type}/>
-            <meta property="og:title" content={title}/>
-            <meta property="og:description" content={description}/>
-            <meta property="og:image" content={image}/>
+            <meta property="og:url" content={url} />
+            <meta property="og:type" content={type} />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={image} />
         </Head>
     )
 }
