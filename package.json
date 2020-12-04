@@ -13,7 +13,7 @@
         "nextjs",
         "now"
     ],
-    "homepage": "https://next-starter.bradgarropy.vercel.app/",
+    "homepage": "https://next-starter.bradgarropy.vercel.app",
     "bugs": {
         "url": "https://github.com/bradgarropy/next-starter/issues"
     },
@@ -28,11 +28,10 @@
         "url": "https://github.com/bradgarropy/next-starter"
     },
     "scripts": {
-        "dev": "next",
+        "start": "next",
         "build": "next build",
-        "start": "next start",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
+        "test": "jest --passWithNoTests",
+        "test:watch": "npm run test -- --watch",
         "new": "plop"
     },
     "dependencies": {
