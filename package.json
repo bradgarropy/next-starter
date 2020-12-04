@@ -8,7 +8,7 @@
         "eslint",
         "prettier",
         "styled-components",
-        "zeit",
+        "vercel",
         "next",
         "nextjs",
         "now"
