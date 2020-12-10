@@ -44,8 +44,8 @@
         "styled-components": "^5.2.1"
     },
     "devDependencies": {
-        "@bradgarropy/eslint-config": "0.0.5",
-        "@bradgarropy/eslint-config-react": "0.0.6",
+        "@bradgarropy/eslint-config": "^1.0.0",
+        "@bradgarropy/eslint-config-react": "^1.0.0",
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.2",
         "@testing-library/user-event": "^12.5.0",
