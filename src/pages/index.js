@@ -3,7 +3,7 @@ import Layout from "components/Layout"
 import Meta from "components/Meta"
 import Twitter from "components/Twitter"
 
-const indexPage = () => (
+const IndexPage = () => (
     <Layout>
         <Meta title="next starter" />
         <Facebook />
@@ -13,4 +13,4 @@ const indexPage = () => (
     </Layout>
 )
 
-export default indexPage
+export default IndexPage

@@ -3,7 +3,7 @@ import Layout from "components/Layout"
 import Meta from "components/Meta"
 import Twitter from "components/Twitter"
 
-const aboutPage = () => {
+const AboutPage = () => {
     return (
         <Layout>
             <Meta title="about" />
@@ -15,4 +15,4 @@ const aboutPage = () => {
     )
 }
 
-export default aboutPage
+export default AboutPage
