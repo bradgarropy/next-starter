@@ -1,7 +1,7 @@
-import Meta from "components/Meta"
-import Layout from "components/Layout"
-import Twitter from "components/Twitter"
 import Facebook from "components/Facebook"
+import Layout from "components/Layout"
+import Meta from "components/Meta"
+import Twitter from "components/Twitter"
 
 const aboutPage = () => {
     return (

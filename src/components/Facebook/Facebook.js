@@ -1,5 +1,5 @@
-import PropTypes from "prop-types"
 import Head from "next/head"
+import PropTypes from "prop-types"
 
 const Facebook = ({
     url = "https://next-starter.bradgarropy.vercel.app",

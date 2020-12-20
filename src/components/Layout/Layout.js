@@ -1,9 +1,9 @@
+import Footer from "components/Footer"
+import Header from "components/Header"
 import PropTypes from "prop-types"
 import styled, {ThemeProvider} from "styled-components"
-import Header from "components/Header"
-import Footer from "components/Footer"
-import GlobalStyles from "styles/GlobalStyles"
 import Container from "styles/Container"
+import GlobalStyles from "styles/GlobalStyles"
 import theme from "styles/theme"
 
 const LayoutWrapper = styled.div`

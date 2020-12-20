@@ -1,5 +1,6 @@
 import Head from "next/head"
 import PropTypes from "prop-types"
+
 import config from "../../../package.json"
 
 const Meta = ({title}) => {
