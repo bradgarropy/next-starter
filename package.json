@@ -1,6 +1,6 @@
 {
     "name": "next-starter",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "⏭ next.js starter",
     "keywords": [
         "typescript",
@@ -34,8 +34,7 @@
         "lint:fix": "eslint . --fix",
         "test": "jest --passWithNoTests",
         "test:watch": "npm run test -- --watch",
-        "new": "plop",
-        "tsc": "tsc"
+        "new": "plop"
     },
     "dependencies": {
         "next": "^10.0.3",
