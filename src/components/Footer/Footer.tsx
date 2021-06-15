@@ -1,3 +1,4 @@
+import {FC} from "react"
 import styled from "styled-components"
 import Container from "styles/Container"
 
@@ -8,7 +9,7 @@ const FooterWrapper = styled.footer`
     padding: 20px 30px;
 `
 
-const Footer = () => {
+const Footer: FC = () => {
     return (
         <FooterWrapper>
             <Container>

@@ -1,5 +1,6 @@
 {
     "extends": [
+        "next",
         "@bradgarropy/eslint-config",
         "@bradgarropy/eslint-config-react",
         "@bradgarropy/eslint-config-typescript"

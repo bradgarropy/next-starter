@@ -1,6 +1,6 @@
 import Footer from "components/Footer"
 import Header from "components/Header"
-import PropTypes from "prop-types"
+import {FC} from "react"
 import styled, {ThemeProvider} from "styled-components"
 import Container from "styles/Container"
 import GlobalStyles from "styles/GlobalStyles"
@@ -12,7 +12,7 @@ const LayoutWrapper = styled.div`
     grid-template-rows: auto 1fr auto;
 `
 
-const Layout = ({children}) => {
+const Layout: FC = ({children}) => {
     return (
         <ThemeProvider theme={theme}>
             <>
@@ -26,10 +26,6 @@ const Layout = ({children}) => {
             </>
         </ThemeProvider>
     )
-}
-
-Layout.propTypes = {
-    children: PropTypes.node,
 }
 
 export default Layout

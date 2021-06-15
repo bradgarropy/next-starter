@@ -1,4 +1,5 @@
 import Navigation from "components/Navigation"
+import {FC} from "react"
 import styled from "styled-components"
 import Container from "styles/Container"
 
@@ -7,7 +8,7 @@ const HeaderWrapper = styled.header`
     padding: 20px 30px;
 `
 
-const Header = () => {
+const Header: FC = () => {
     return (
         <HeaderWrapper>
             <Container>
