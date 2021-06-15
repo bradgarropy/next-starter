@@ -1,5 +1,4 @@
 import Head from "next/head"
-import PropTypes from "prop-types"
 import {FC} from "react"
 
 import config from "../../../package.json"
@@ -19,10 +18,6 @@ const Meta: FC<MetaProps> = ({title}) => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
     )
-}
-
-Meta.propTypes = {
-    title: PropTypes.string,
 }
 
 export default Meta
