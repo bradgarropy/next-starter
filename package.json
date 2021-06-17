@@ -1,6 +1,6 @@
 {
     "name": "next-starter",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "⏭ next.js starter",
     "keywords": [
         "typescript",
@@ -36,6 +36,7 @@
         "format:fix": "prettier --write .",
         "test": "jest --passWithNoTests",
         "test:watch": "npm run test -- --watch",
+        "contributors": "all-contributors generate",
         "new": "plop"
     },
     "dependencies": {
@@ -55,6 +56,7 @@
         "@types/styled-components": "^5.1.10",
         "@typescript-eslint/eslint-plugin": "^4.26.1",
         "@typescript-eslint/parser": "^4.26.1",
+        "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
         "babel-plugin-styled-components": "^1.10.0",
         "dotenv": "^10.0.0",
