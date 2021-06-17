@@ -1,34 +1,21 @@
 import Link from "next/link"
 import {FC} from "react"
-import styled from "styled-components"
 
-const NavigationWrapper = styled.nav`
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
-`
-
-const NavigationLink = styled.a`
-    color: ${({theme}) => theme.colors.gray};
-    cursor: pointer;
-    text-decoration: none;
-
-    &:hover {
-        color: ${({theme}) => theme.colors.offBlack};
-    }
-`
+import styles from "./Navigation.module.css"
 
 const Navigation: FC = () => {
     return (
-        <NavigationWrapper>
+        <nav className={styles.navigation}>
             <Link href="/" passHref>
-                <NavigationLink>Home</NavigationLink>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a className={styles.link}>Home</a>
             </Link>
 
             <Link href="/about" passHref>
-                <NavigationLink>About</NavigationLink>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                <a className={styles.link}>About</a>
             </Link>
-        </NavigationWrapper>
+        </nav>
     )
 }
 
