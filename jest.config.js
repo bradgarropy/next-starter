@@ -9,6 +9,7 @@ const config = {
     },
     testEnvironment: "jsdom",
     testPathIgnorePatterns: ["<rootDir>/plop"],
+    verbose: true,
 }
 
 module.exports = config
