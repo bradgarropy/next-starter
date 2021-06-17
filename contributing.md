@@ -21,13 +21,13 @@ In order to submit a pull request, you'll have to setup your own development env
 Then you can clone the forked repository to your system.
 
 ```bash
-git clone https://github.com/<username>/gatsby-starter
+git clone https://github.com/<username>/next-starter
 ```
 
 Next you need to install the dependencies.
 
 ```bash
-cd gatsby-starter
+cd next-starter
 npm install
 ```
 
