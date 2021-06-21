@@ -1,5 +1,5 @@
 const config = plop => {
-    plop.load("./plop/generators")
+    plop.load("@bradgarropy/plop-generator-react-component")
 }
 
 module.exports = config

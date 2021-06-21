@@ -1,6 +1,6 @@
 {
     "name": "next-starter",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "description": "⏭ next.js starter",
     "keywords": [
         "typescript",
@@ -46,6 +46,7 @@
         "@bradgarropy/eslint-config": "^1.1.0",
         "@bradgarropy/eslint-config-react": "^1.0.0",
         "@bradgarropy/eslint-config-typescript": "^1.0.1",
+        "@bradgarropy/plop-generator-react-component": "^1.0.1",
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^11.2.2",
         "@testing-library/user-event": "^13.1.9",
