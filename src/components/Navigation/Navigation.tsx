@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "@bradgarropy/next-link"
 import {FC} from "react"
 
 import styles from "./Navigation.module.css"
@@ -6,14 +6,12 @@ import styles from "./Navigation.module.css"
 const Navigation: FC = () => {
     return (
         <nav className={styles.navigation}>
-            <Link href="/" passHref>
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a className={styles.link}>Home</a>
+            <Link to="/" className={styles.link}>
+                Home
             </Link>
 
-            <Link href="/about" passHref>
-                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <a className={styles.link}>About</a>
+            <Link to="/about" className={styles.link}>
+                About
             </Link>
         </nav>
     )
