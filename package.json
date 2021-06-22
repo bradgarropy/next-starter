@@ -39,8 +39,8 @@
         "new": "plop"
     },
     "dependencies": {
-        "@bradgarropy/next-link": "^1.0.0",
-        "next": "^11.0.0",
+        "@bradgarropy/next-link": "^1.0.1",
+        "next": "^11.0.1",
         "react-dom": "^17.0.1"
     },
     "devDependencies": {
@@ -61,7 +61,7 @@
         "babel-eslint": "^10.1.0",
         "dotenv": "^10.0.0",
         "eslint": "^7.16.0",
-        "eslint-config-next": "^11.0.0",
+        "eslint-config-next": "^11.0.1",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-react": "^7.21.5",
