@@ -1,6 +1,6 @@
 {
     "name": "next-starter",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "description": "⏭ next.js starter",
     "keywords": [
         "typescript",
@@ -39,7 +39,8 @@
         "new": "plop"
     },
     "dependencies": {
-        "@bradgarropy/next-link": "^1.0.1",
+        "@bradgarropy/next-link": "^1.0.2",
+        "@bradgarropy/next-seo": "0.0.5",
         "next": "^11.0.1",
         "react-dom": "^17.0.1"
     },
@@ -50,13 +51,13 @@
         "@bradgarropy/plop-generator-react-component": "^1.0.1",
         "@bradgarropy/plop-generator-react-hook": "^1.0.0",
         "@testing-library/jest-dom": "^5.11.6",
-        "@testing-library/react": "^11.2.2",
-        "@testing-library/react-hooks": "^7.0.0",
+        "@testing-library/react": "^12.0.0",
+        "@testing-library/react-hooks": "^7.0.1",
         "@testing-library/user-event": "^13.1.9",
         "@types/jest": "^26.0.23",
-        "@types/react": "^17.0.11",
-        "@typescript-eslint/eslint-plugin": "^4.26.1",
-        "@typescript-eslint/parser": "^4.26.1",
+        "@types/react": "^17.0.13",
+        "@typescript-eslint/eslint-plugin": "^4.28.1",
+        "@typescript-eslint/parser": "^4.28.1",
         "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
         "dotenv": "^10.0.0",
@@ -68,11 +69,11 @@
         "eslint-plugin-react-hooks": "^4.2.0",
         "eslint-plugin-simple-import-sort": "^7.0.0",
         "identity-obj-proxy": "^3.0.0",
-        "jest": "^27.0.5",
+        "jest": "^27.0.6",
         "plop": "^2.7.4",
-        "prettier": "^2.3.1",
+        "prettier": "^2.3.2",
         "react": "^17.0.1",
         "regenerator-runtime": "^0.13.7",
-        "typescript": "^4.3.2"
+        "typescript": "^4.3.5"
     }
 }

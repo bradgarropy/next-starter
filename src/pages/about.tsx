@@ -1,16 +1,11 @@
-import Facebook from "components/Facebook"
+import SEO from "@bradgarropy/next-seo"
 import Layout from "components/Layout"
-import Meta from "components/Meta"
-import Twitter from "components/Twitter"
 import {FC} from "react"
 
 const AboutPage: FC = () => {
     return (
         <Layout>
-            <Meta title="about" />
-            <Facebook />
-            <Twitter />
-
+            <SEO title="about" />
             <p>about</p>
         </Layout>
     )

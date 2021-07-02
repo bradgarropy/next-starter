@@ -1,15 +1,10 @@
-import Facebook from "components/Facebook"
+import SEO from "@bradgarropy/next-seo"
 import Layout from "components/Layout"
-import Meta from "components/Meta"
-import Twitter from "components/Twitter"
 import {FC} from "react"
 
 const IndexPage: FC = () => (
     <Layout>
-        <Meta title="next starter" />
-        <Facebook />
-        <Twitter />
-
+        <SEO title="next starter" />
         <p>home</p>
     </Layout>
 )
