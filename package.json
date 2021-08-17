@@ -41,7 +41,7 @@
     "dependencies": {
         "@bradgarropy/next-link": "^1.0.2",
         "@bradgarropy/next-seo": "^1.0.0",
-        "next": "^11.0.1",
+        "next": "^11.1.0",
         "react-dom": "^17.0.1"
     },
     "devDependencies": {
@@ -53,16 +53,16 @@
         "@testing-library/jest-dom": "^5.11.6",
         "@testing-library/react": "^12.0.0",
         "@testing-library/react-hooks": "^7.0.1",
-        "@testing-library/user-event": "^13.1.9",
-        "@types/jest": "^26.0.23",
-        "@types/react": "^17.0.13",
-        "@typescript-eslint/eslint-plugin": "^4.28.1",
-        "@typescript-eslint/parser": "^4.28.1",
+        "@testing-library/user-event": "^13.2.1",
+        "@types/jest": "^27.0.1",
+        "@types/react": "^17.0.18",
+        "@typescript-eslint/eslint-plugin": "^4.29.2",
+        "@typescript-eslint/parser": "^4.29.2",
         "all-contributors-cli": "^6.20.0",
         "babel-eslint": "^10.1.0",
         "dotenv": "^10.0.0",
-        "eslint": "^7.16.0",
-        "eslint-config-next": "^11.0.1",
+        "eslint": "^7.32.0",
+        "eslint-config-next": "^11.1.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-react": "^7.21.5",
@@ -73,7 +73,7 @@
         "plop": "^2.7.4",
         "prettier": "^2.3.2",
         "react": "^17.0.1",
-        "regenerator-runtime": "^0.13.7",
+        "regenerator-runtime": "^0.13.9",
         "typescript": "^4.3.5"
     }
 }
