@@ -1,6 +1,6 @@
 {
     "name": "next-starter",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "description": "⏭ next.js starter",
     "keywords": [
         "typescript",
@@ -40,7 +40,7 @@
     },
     "dependencies": {
         "@bradgarropy/next-link": "^1.0.2",
-        "@bradgarropy/next-seo": "^1.0.0",
+        "@bradgarropy/next-seo": "^1.1.0",
         "next": "^11.1.0",
         "react-dom": "^17.0.1"
     },
