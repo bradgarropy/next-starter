@@ -8,7 +8,6 @@ const config = {
         "\\.(css)$": "identity-obj-proxy",
     },
     testEnvironment: "jsdom",
-    testPathIgnorePatterns: ["<rootDir>/plop"],
     verbose: true,
 }
 
