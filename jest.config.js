@@ -8,6 +8,14 @@ const config = {
         "\\.(css)$": "identity-obj-proxy",
     },
     testEnvironment: "jsdom",
+    transform: {
+        "\\.(js|jsx|ts|tsx)$": [
+            "babel-jest",
+            {
+                presets: ["next/babel"],
+            },
+        ],
+    },
     verbose: true,
 }
 
