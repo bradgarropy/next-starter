@@ -7,6 +7,9 @@ node_modules
 # build
 .next
 
+# host
+.vercel
+
 # test
 coverage
 
