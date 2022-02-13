@@ -1,5 +1,5 @@
+import {render, screen} from "@testing-library/react"
 import Layout from "components/Layout"
-import {render, screen} from "test-utils/render"
 
 test("shows layout", () => {
     render(
