@@ -1,5 +1,5 @@
+import {render, screen} from "@testing-library/react"
 import Navigation from "components/Navigation"
-import {render, screen} from "test-utils/render"
 
 test("shows navigation", () => {
     render(<Navigation />)
