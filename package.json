@@ -1,6 +1,6 @@
 {
     "name": "next-starter",
-    "version": "2.8.0",
+    "version": "2.9.0",
     "description": "⏭ next.js starter",
     "keywords": [
         "typescript",
@@ -10,7 +10,8 @@
         "jest",
         "vercel",
         "nextjs",
-        "heroicons"
+        "heroicons",
+        "pwa"
     ],
     "homepage": "https://next-starter.bradgarropy.vercel.app",
     "bugs": {
