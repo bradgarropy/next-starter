@@ -1,5 +1,6 @@
 import "../styles/styles.css"
 
+import GoogleAnalytics from "@bradgarropy/next-google-analytics"
 import SEO from "@bradgarropy/next-seo"
 import type {AppProps} from "next/app"
 import Head from "next/head"
@@ -37,6 +38,12 @@ const App = ({Component, pageProps}: AppProps): ReactElement => {
                     site: "@bradgarropy",
                     card: "summary",
                 }}
+            />
+
+            <GoogleAnalytics
+                measurementId={
+                    process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID
+                }
             />
 
             <Component {...pageProps} />
