@@ -10,7 +10,7 @@ _A base starter with formatting, linting, serverless, CSS in JS, and SEO include
 [![discord][discord-badge]][discord]
 
 <p align="center">
-    <a href="https://next-starter.bradgarropy.vercel.app">
+    <a href="https://next-starter-bradgarropy.vercel.app">
         <img alt="next starter" src="./public/github.png" width="300">
     </a>
 </p>
