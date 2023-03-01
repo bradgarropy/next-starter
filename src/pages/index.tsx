@@ -1,8 +1,7 @@
 import SEO from "@bradgarropy/next-seo"
 import Layout from "components/Layout"
-import {FC} from "react"
 
-const IndexPage: FC = () => {
+const IndexPage = () => {
     return (
         <Layout>
             <SEO title="next starter" />
