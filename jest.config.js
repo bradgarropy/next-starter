@@ -18,7 +18,7 @@ const config = {
             },
         ],
     },
-    transformIgnorePatterns: [],
+    transformIgnorePatterns: ["node_modules"],
 }
 
 module.exports = config
